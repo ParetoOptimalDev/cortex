@@ -1,0 +1,3 @@
+#+TITLE: Cortex Theme
+
+Theme forked from [[https://github.com/jethrokuan/cortex][cortex]].

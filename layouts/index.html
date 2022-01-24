@@ -1,0 +1,12 @@
+{{define "main"}}
+<div class="page" data-level="1">
+  <div class="content">
+    {{.Content}}
+    <ul class="all-posts">
+      {{range .Site.RegularPages}}
+      <li><a href="{{.RelPermalink}}">{{.Title}}</a></li>
+      {{end}}
+    </ul>
+  </div>
+</div>
+{{end}}
