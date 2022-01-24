@@ -9,4 +9,4 @@
 
 {{ $main := resources.Get "css/main.css" | resources.Minify | resources.Fingerprint }}
 <link rel="stylesheet" href="{{ $main.Permalink }}"/>
-<script defer data-domain="paretooptimal.dev" src="https://plausible.io/js/plausible.js"></script>
+<script defer data-domain="paretooptimal.dev" src="https://plausible.io/js/plausible.outbound-links.js"></script>
